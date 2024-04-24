@@ -1,0 +1,53 @@
+name: courtside
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  auto_route: ^7.9.2
+  auto_route_generator: ^7.3.2
+  bloc: ^8.1.4
+  build_runner: ^2.4.8
+  confetti: ^0.7.0
+  cupertino_icons: ^1.0.8
+  dio: ^5.4.3+1
+  firebase_core: ^2.27.0
+  firebase_remote_config: ^4.3.17
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  flutter_inappwebview: ^6.0.0
+  flutter_riverpod: ^2.5.1
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.10+1
+  get_it: ^7.6.7
+  intl: ^0.19.0
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
+  riverpod: ^2.5.1
+  share_plus: ^7.2.2
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/bg/
+    - assets/navbar/
+    - assets/news/
+    - assets/icons/
+    - assets/puzzles/full/
+    - assets/puzzles/1/
+    - assets/puzzles/2/
+    - assets/puzzles/3/
+    - assets/puzzles/4/
+    - assets/puzzles/5/
+    - assets/puzzles/6/
